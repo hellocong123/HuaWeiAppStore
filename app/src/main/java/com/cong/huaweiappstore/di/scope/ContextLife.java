@@ -12,7 +12,7 @@ import javax.inject.Qualifier;
  */
 
 @Qualifier
-@Retention(RetentionPolicy.RUNTIME)
+@Retention(RetentionPolicy.RUNTIME)//注意注解范围是Runtime级别
 public @interface ContextLife {
     String value() ;
 }

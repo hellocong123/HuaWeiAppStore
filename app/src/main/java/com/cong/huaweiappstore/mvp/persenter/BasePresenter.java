@@ -1,4 +1,6 @@
-package com.cong.huaweiappstore.mvp;
+package com.cong.huaweiappstore.mvp.persenter;
+
+import com.cong.huaweiappstore.mvp.view.framgent.BaseView;
 
 /**
  * Created by Administrator on 2018/1/16.

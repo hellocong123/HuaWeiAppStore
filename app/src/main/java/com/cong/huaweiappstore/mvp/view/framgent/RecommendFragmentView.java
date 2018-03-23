@@ -1,6 +1,6 @@
-package com.cong.huaweiappstore.mvp.view;
+package com.cong.huaweiappstore.mvp.view.framgent;
 
-import com.cong.huaweiappstore.mvp.BaseView;
+import com.cong.huaweiappstore.http.Recommend;
 
 /**
  * Created by Administrator on 2018/1/16.
@@ -8,7 +8,7 @@ import com.cong.huaweiappstore.mvp.BaseView;
 
 public interface RecommendFragmentView extends BaseView {
 
-    void onRecommendDataSuccess();
+    void onRecommendDataSuccess(Recommend value);
 
     void onRecommendDataError();
 

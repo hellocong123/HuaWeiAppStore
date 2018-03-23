@@ -8,8 +8,8 @@ import com.cong.huaweiappstore.activity.StoreApplication;
 import com.cong.huaweiappstore.di.component.ActivityComponent;
 import com.cong.huaweiappstore.di.component.DaggerActivityComponent;
 import com.cong.huaweiappstore.di.module.ActivityModule;
-import com.cong.huaweiappstore.mvp.BasePresenter;
-import com.cong.huaweiappstore.mvp.BaseView;
+import com.cong.huaweiappstore.mvp.persenter.BasePresenter;
+import com.cong.huaweiappstore.mvp.view.framgent.BaseView;
 
 /**
  * Created by Administrator on 2018/1/16.
@@ -29,6 +29,10 @@ public abstract class BaseMvpActivity<T extends BasePresenter> extends BaseActiv
 
 
     protected  void initActivityComponent(){
+
+
+//        StoreApplication application = (StoreApplication) getApplication();
+//        application.getApplicationComponent();
 
         activityComponent = DaggerActivityComponent.builder()
                 .applicationComponent(((StoreApplication) getApplication()).getApplicationComponent())

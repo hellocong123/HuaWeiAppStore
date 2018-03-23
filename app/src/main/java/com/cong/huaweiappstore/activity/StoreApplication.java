@@ -25,11 +25,10 @@ public class StoreApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-
         mHandler = new Handler();
-
         context = getApplicationContext();
-
+        //初始化组件
+        //初始化组件操作应当在Application中进行操作，因为这些实例在整个application生命周期中只会被实例化一次。
         initApplicationComponent();
     }
 
@@ -39,7 +38,7 @@ public class StoreApplication extends Application {
                 .build();
     }
 
-
+    // 对外提供ApplicationComponent
     public ApplicationComponent getApplicationComponent() {
         return applicationComponent;
     }

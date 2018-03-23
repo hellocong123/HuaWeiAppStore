@@ -4,7 +4,7 @@ import com.cong.huaweiappstore.fragment.AppManagerFragment;
 import com.cong.huaweiappstore.fragment.BaseFragment;
 import com.cong.huaweiappstore.fragment.CategoryFragment;
 import com.cong.huaweiappstore.fragment.MyFragment;
-import com.cong.huaweiappstore.mvp.view.RecommendFragment;
+import com.cong.huaweiappstore.mvp.view.framgent.RecommendFragment;
 import com.cong.huaweiappstore.fragment.TopFragment;
 
 import java.util.HashMap;

@@ -10,7 +10,7 @@ import javax.inject.Scope;
  *
  * @author xzhang
  */
-@Scope
-@Retention(RetentionPolicy.RUNTIME)
+@Scope//注明是Scope
+@Retention(RetentionPolicy.RUNTIME)//运行时级别
 public @interface PerActivity {
 }

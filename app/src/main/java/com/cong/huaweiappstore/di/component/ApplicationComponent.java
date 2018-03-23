@@ -16,7 +16,6 @@ import dagger.Component;
 @PerApp
 @Component(modules = ApplicationModule.class)
 public interface ApplicationComponent {
-
     @ContextLife("Application")
     Context getApplication() ;
 }

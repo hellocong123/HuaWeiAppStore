@@ -1,7 +1,9 @@
-package com.cong.huaweiappstore.mvp;
+package com.cong.huaweiappstore.mvp.persenter;
+
+import com.cong.huaweiappstore.mvp.view.framgent.BaseView;
 
 /**
- * Created by Administrator on 2018/1/16.
+ * Created by Administrator on 2018/1/16
  */
 
 public class BasePresenterImpl<T extends BaseView> implements BasePresenter<T> {

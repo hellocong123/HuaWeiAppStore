@@ -11,7 +11,6 @@ import dagger.Component;
 
 /**
  * <p>Description:
- *
  * @author xzhang
  */
 @PerActivity
@@ -24,6 +23,4 @@ public interface ActivityComponent {
     Context getApplicationContext();
 
     Activity getActivity();
-
-
 }
